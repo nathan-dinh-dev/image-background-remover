@@ -1,14 +1,16 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import AuthContext from "../../store/auth-context.jsx";
 import styles from "./ImageUploader.module.css";
 
-const ImageUploader = () => {
-  const [imageUploaded, setImageUploaded] = useState(null);
+const ImageUploader = (props) => {
   const [fileName, setfileName] = useState("");
+
+  const ctx = useContext(AuthContext);
 
   const imageSelectHandler = (event) => {
     if (event.target.files && event.target.files[0]) {
       console.log(event);
-      setImageUploaded(event.target.files[0]);
+      ctx.selectImage(event.target.files[0]);
       setfileName(event.target.files.name);
     } else {
       alert("File Error");
@@ -18,12 +20,15 @@ const ImageUploader = () => {
   return (
     <>
       <h1>Upload and Display Original Image</h1>
-      {imageUploaded ? (
+      {ctx.currentImage ? (
         <div>
-          <img src={URL.createObjectURL(imageUploaded)} alt="no image found" />
+          <img
+            src={URL.createObjectURL(ctx.currentImage)}
+            alt="no image found"
+          />
           <button
             onClick={() => {
-              setImageUploaded(null);
+              ctx.selectImage(null);
               setfileName("");
             }}
           >
