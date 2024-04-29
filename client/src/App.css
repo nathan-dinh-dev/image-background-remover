@@ -1,0 +1,21 @@
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+}
+
+/* this is for shaping image text around boundary */
+/* .img1 { */
+/* width: 100%; */
+/* height: 100%; */
+/* float: left;
+  margin: 15px;
+  max-width: 200px;
+  height: auto; */
+/* position: absolute;
+  right: calc(100% - 350px); */
+/* position: relative;
+  shape-outside: url("C:\Users\nghia\Desktop\Learning Web Coding\image-background-remover\output.png");
+} */
