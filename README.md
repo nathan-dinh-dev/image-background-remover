@@ -6,10 +6,10 @@ This application's goal is to provide users with a simple way to remove backgrou
 
 Choose the version that best fits your needs:
 
-Tool | Imgly Node Package | Remove.bg Api |
---- | --- | --- |
-Description | Uses Imgly Node Package for background removal | Utilizes Remove.bg API for background removal |
-Documentation | [Read documentation](https://www.npmjs.com/package/@imgly/background-removal-node) | [Generate API key at Remove.bg](https://www.remove.bg/api#remove-background) |
+Tool | Imgly Node Package | Remove.bg Api | Python OpenCV Library |
+--- | --- | --- | --- |
+Description | Uses Imgly Node Package for background removal | Utilizes Remove.bg API for background removal | Uses Canny Edge Detection |
+Documentation | [Read documentation](https://www.npmjs.com/package/@imgly/background-removal-node) | [Generate API key at Remove.bg](https://www.remove.bg/api#remove-background) | [Read documentation](https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html)
 
 ## Before and After Examples
 
@@ -32,6 +32,16 @@ Photo was taken on [Freepik](https://www.freepik.com/free-photos-vectors/person-
 ![After Image 2](https://github.com/nathan-dinh-dev/image-background-remover/blob/main/removebg%20api%20version/output.png)
 
 Photo was taken by Andrea Piacquadio on [Pexels](https://www.pexels.com/photo/man-standing-near-building-white-black-turtleneck-shirt-874158/)
+
+### Using Python OpenCV library
+
+**Before:**
+![Before Image 3](https://github.com/nathan-dinh-dev/image-background-remover/blob/main/python-opencv%20version/original-image.jpg)
+
+**After:**
+![After Image 3](https://github.com/nathan-dinh-dev/image-background-remover/blob/main/python-opencv%20version/output.png)
+
+Photo was taken on [Inc.](https://www.inc.com/erik-sherman/12-ways-to-become-that-popular-person-at-work.html)
 
 ## Getting Started
 
