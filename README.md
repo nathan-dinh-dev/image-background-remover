@@ -21,7 +21,7 @@ Documentation | [Read documentation](https://www.npmjs.com/package/@imgly/backgr
 **After:**
 ![After Image 1](https://github.com/nathan-dinh-dev/image-background-remover/blob/main/imgly%20version/output.png)
 
-Photo was taken by Andrea Piacquadio on [Pexels](https://www.pexels.com/photo/man-standing-near-building-white-black-turtleneck-shirt-874158/)
+Photo was taken on [Freepik](https://www.freepik.com/free-photos-vectors/person-smiling-orange-shirt/3#uuid=36049045-dba8-40ba-84aa-bf4b5aa4154e)
 
 ### Using Remove.bg API
 
@@ -31,7 +31,7 @@ Photo was taken by Andrea Piacquadio on [Pexels](https://www.pexels.com/photo/ma
 **After:**
 ![After Image 2](https://github.com/nathan-dinh-dev/image-background-remover/blob/main/removebg%20api%20version/output.png)
 
-Photo was taken on [Freepik](https://www.freepik.com/free-photos-vectors/person-smiling-orange-shirt/3#uuid=36049045-dba8-40ba-84aa-bf4b5aa4154e)
+Photo was taken by Andrea Piacquadio on [Pexels](https://www.pexels.com/photo/man-standing-near-building-white-black-turtleneck-shirt-874158/)
 
 ## Getting Started
 
